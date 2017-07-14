@@ -1,0 +1,459 @@
+/* Ivy Ka Man Chan profolio website is inspired by jenkramer.org and edhebert.org. */
+/* Border box declaration */
+html {
+  box-sizing: border-box;
+}
+/* inherit border-box on all elements in the universe and before and after */
+*, 
+*:before, 
+*:after {
+  box-sizing: inherit;
+}
+
+/* From "http://typecast.com/images/uploads/modernscale.css". Even though some tags are not in the htmls, they may appear in future additional htmls. */
+body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
+    font-size-adjust: 0.5;
+}
+
+
+body{
+    font-family: 'Source Sans Pro', Arial,sans-serif; /*Arial, Geneva, sans-serif;*/
+    background-color: #a51c30; 
+    font-size: 100%;
+    color: #FBFBF9;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    float: none;
+    /*padding: 0 1em;*/
+}
+
+h1, h2, h3, h4, h5, h6, .tabs-title{
+    font-family: 'Amita', cursive;
+}
+
+#headerRow{
+    padding:1.8em;
+}
+
+#myNameInHeader{
+    color: white;
+ }
+
+ #myNameInHeader:hover{
+    text-decoration: underline;
+ }
+
+#socialMediaIcons a{
+    /*border: 1px dotted white;*/ 
+    margin-right: 1em;
+}
+
+/*For icon zoom in effect.
+From https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/ */
+#facebookIcon,
+#linkedinIcon,
+#twitterIcon { 
+    transition: all .2s ease-in-out; 
+}
+
+#facebookIcon:hover,
+#linkedinIcon:hover,
+#twitterIcon:hover { 
+    transform: scale(1.1); 
+}
+
+
+
+.button{
+    font-family: 'Source Sans Pro', Arial,sans-serif;
+    padding: 1em;
+}
+
+
+.top-bar a{
+    color: #3f3c30;
+    font-size: 1.1em;
+}
+
+.top-bar li{
+    padding: 0.3em;
+}
+
+
+
+.callout{
+    background-color: #FBFBF9; /*#FDF6E3;*/
+    color:  #5F574F; /*#3f3c30;*/
+}
+
+.callout.large{
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
+p.pageDescription{
+    font-size: 1.1em;
+}
+
+#homePhoto{
+    padding-left:3em;
+    padding-right:3em;
+    /*height: auto;*/
+    margin-bottom: 2em; 
+}
+
+.projectPhotos{
+    margin: 0.5em 2em 1em 0em;
+    border: 1px solid #a51c30;
+}
+
+#projectsAssignmentsTitle, #resumeTitle{
+    font-size: 2.5em;
+    padding-bottom: 0.8em;
+    padding-left: 0.4em;
+}
+
+
+
+
+
+
+/*#projectsAssignmentsContent{
+    padding-top: 2em;
+    border: 1px red dotted;
+}*/
+
+
+
+
+/* Reference-only. http://stackoverflow.com/questions/21582774/add-text-overlay-to-panel-and-image-with-zurb-foundation*/
+/* Reference. Make use of this one. http://codepen.io/shoaibik/pen/pyYjpa*/
+/* Reference. Make use of this one. http://web.enavu.com/tutorials/making-image-overlay-caption-using-css/*/
+/* captions overlay photos */
+div.thumb-wrapper{  
+    float: left; /* important */  
+    position: relative; /* important(so we can absolutely position the description div */  
+    margin: 0.2em;
+}  
+div.description{  
+    position: absolute; /* absolute position (so we can position it where we want)*/  
+    bottom: 0px;   
+    left: 0px;  
+    width: 100%; /* to cover the whole pic */ 
+    height: 100%; /* to cover the whole pic */ 
+    /* styling below */  
+    background-color: rgba(0,0,0,0.50);  
+    font-family: 'tahoma';  
+    font-size: 15px;  
+    color: white;  
+    opacity: 0; /* (e.g.0.6 transparency */  
+    filter: alpha(opacity=0); /* (e.g. 60 IE transparency */
+    transition: all linear 0.3s;
+}  
+p.description_content{  
+    padding: 10px;  
+    margin: 0px;  
+}  
+.thumb-wrapper:hover .description{
+    opacity: 1;
+}
+
+
+/*tabs styling*/
+.tabs-title a:hover{
+    background-color:#ddd;
+}
+
+.tabs-title a, .accordion-title{
+    color: #a51c30;
+    font-size: 1em;
+    font-weight: bold;
+    /*background-color: #F0D770;*/
+}
+
+.tabs-title > a[aria-selected="true"]{
+    background-color: #F0D770;
+}
+
+/*accordion styling*/
+.accordion-title,.accordion-title:hover, .accordion-title:focus{
+    background-color: #F0D770;
+    color: #a51c30;
+}
+
+.accordion-title:hover, .accordion-title:focus{
+    text-decoration: underline;
+}
+
+
+h2 #revealWordColor{
+  color: #a51c30;
+}
+
+
+/*button group styling*/
+.button-bar ul li{
+    display: inline;
+}
+
+.projectFilesButton{
+    border: 1px solid white;
+}
+
+
+/* http://codepen.io/ibrahimjabbari/pen/ozinB */
+/*divider styling*/
+hr.projectDivider{
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+
+.asideCourses{
+  margin-bottom: 1em;
+  background-color:#F2EDBC;
+}
+
+.asideCoursesHeader{
+  background-color:#F0D770;
+}
+
+aside h5{
+  font-size: 1.1em;
+  padding: 0.8em 0.8em;
+  /*padding-bottom: 0.8em;
+  padding-left: 0.8em;*/
+}
+
+.asideCoursesDetails{
+  padding-left: 0.5em;
+  font-size: 0.9em;
+  padding: 0.2em 0.2em;
+}
+
+.asideCoursesDetails ul li{
+  line-height: 1.2em;
+  padding-top: 1.5em;
+}
+
+
+
+/*breadcrumbs, back to top, and footer*/
+.breadcrumbs a{
+    color: white;
+}
+
+.breadcrumbs li{
+  color: #E09A25;/*#9298CC;*/
+  font-size: 0.8em;
+}
+
+/* not in use
+#back-top {
+    position: fixed;
+    bottom:50px;
+    right: 2%;
+    z-index: 100; 
+}
+*/
+
+footer {
+  	padding: 2em 0;
+  	margin: 3em 0;
+  	border-top: 1px solid #ddd;
+  	color: white;/*#;999;*/
+  	text-align: center;
+}
+
+
+
+
+/* from foundation. prevent FOUC (flash of unstyled content) or FOUT (flash of unstyled type). FOUC == FOUT. */
+.no-js .top-bar{
+    display: none;
+}
+
+@media screen and (min-width: 40em){
+    .no-js .top-bar{
+    display: block;
+    }
+
+    .no-js .top-bar{
+    display: none;
+    }
+}
+
+/* Medium to Large screens */
+@media only screen and (min-width: 40.063em){
+    /*http://stackoverflow.com/questions/28708909/foundation-5-modifying-top-bar-links-to-have-a-border-bottom-with-sass*/
+    /* Create hover effect on all li in nav and make active li with a colored border-bottom */
+    .topMenu .link-border-bottom a:hover{
+      border-bottom: 3px solid #E09A25;/*#5F574F;*/
+ 
+    }
+
+    .topMenu .link-border-bottom a:active{
+      background-color:#9298CC;
+    }
+
+    .active-nav .link-border-bottom a { 
+      border-bottom: 3px solid #a51c30; 
+    }
+
+    .active-nav .link-border-bottom a,
+    .topMenu .link-border-bottom a{
+        padding: 0.7em;
+    }   
+
+}
+
+
+
+/* Small screens only */
+@media only screen and (max-width: 40em){
+    .title-bar{
+      background: #5F574F;
+    }
+
+    /*button.menu-icon{
+      border: 1px dotted white;
+    }*/
+
+    li.topMenu:hover{
+      background-color:#9298CC;
+    }
+    li.active-nav:hover{
+      background-color:#9298CC;
+    }
+
+    #headerRow{
+      text-align: center;
+    }
+
+    #myNameInHeader{
+      font-size:1.5em;
+    }
+
+    #homePhoto{
+      padding-left:3em;
+      padding-right:3em;
+      width: 100%;
+      height: auto;
+      margin-bottom: 2em;
+    }
+
+    .pageTitle{
+      font-size: 2em;
+    }
+
+    .tabs-title{
+      font-size: 1em;
+
+    }
+
+    /*.aboutPhotos{
+      padding-left:3em;
+      padding-right:3em;
+      width: 100%;
+      height: auto;
+      margin-bottom: 1em;*
+
+      /*display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border: 1px solid red;
+
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      height: auto;
+      margin-top: 1em;
+      margin-bottom: 1em; 
+      border: 1px solid #a51c30;
+      border: none;
+      padding-left:3em;
+      padding-right: 3em;
+    }*/
+
+    #projectsAssignmentsTitle{
+      font-size: 1.6em;
+    }
+
+    .projectsAssignmentsSubtitle{
+      font-size: 1.5em;
+    }
+
+    #resumeTitle{
+      padding-bottom: 0.3em;
+    }
+
+    .projectPhotos{      
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      height: auto;
+      margin-top: 1em;
+      margin-bottom: 1em; 
+      /*border: 1px solid #a51c30;*/
+      border: none;
+      padding-left:3em;
+      padding-right: 3em;
+    }
+
+    .projectFilesButtonGroup{
+      width: 100%;
+    }
+
+    .callout.large{    
+      padding-left: 0.8rem;
+      padding-right: 0.8rem;
+
+      }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.8em;
+      
+    }
+
+    .asideCourses{
+      margin-top: 1em;
+    }
+
+    /*aside{
+      padding-top: 2em;
+    }
+
+    aside h5{
+      font-size: 1.3em;
+    }
+
+    aside>ul{
+      font-size: 1.1em;
+    }
+
+    aside>ul li{
+      font-size: 0.9em;
+      line-height: 1.2em;
+      padding-top: 1em;
+      
+    }*/
+
+    #resumeTitle{
+    padding-left: 0.2em;
+    }
+  
+}
+
+

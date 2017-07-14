@@ -1,0 +1,38 @@
+          <ul class="accordion" data-accordion role="tablist"> <!-- data-equalizer -->
+            <li class="accordion-navigation"> <!-- take away is-active -->
+              <!-- The tab title needs role="tab", an href, a unique ID, and aria-controls. -->
+              <a href="#education" role="tab" class="accordion-title" id="education-heading" aria-controls="education">Education</a>
+              <!-- The content pane needs an ID that matches the above href, role="tabpanel", data-tab-content, and aria-labelledby. -->
+              <div id="education" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="education-heading">
+                Panel 1. Education Education Education
+              </div>
+            </li>
+            <li class="accordion-navigation">
+              <!-- The tab title needs role="tab", an href, a unique ID, and aria-controls. -->
+              <a href="#workExperience" role="tab" class="accordion-title" id="workExperience-heading" aria-controls="workExperience">Work Experience</a>
+              <!-- The content pane needs an ID that matches the above href, role="tabpanel", data-tab-content, and aria-labelledby. -->
+              <div id="workExperience" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="workExperience-heading">
+                Panel 2. Work Experience Work Experience Work Experience
+              </div>
+            </li>
+          </ul>
+
+
+
+    <ul id="myAccordionGroup" class="accordion" data-accordion role="tablist">
+      <li class="accordion-navigation">
+        <a href="#education" role="tab" class="accordion-title" id="education-heading" aria-controls="education">Education</a>
+
+        <div id="education" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="education-heading">
+          Panel 1. Education Education Education
+        </div>
+      </li>
+      
+      <li class="accordion-navigation">
+        <a href="#workExperience" role="tab" class="accordion-title" id="workExperience-heading" aria-controls="workExperience">Work Experience</a>
+
+        <div id="workExperience" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="workExperience-heading">
+          Panel 2. Work Experience Work Experience Work Experience
+        </div>
+      </li>
+    </ul>
