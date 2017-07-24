@@ -164,6 +164,7 @@ p.description_content{
 }
 
 
+
 /*tabs styling*/
 .tabs-title a:hover{
     background-color:#ddd;
@@ -193,6 +194,12 @@ p.description_content{
 
 h2 #revealWordColor{
   color: #a51c30;
+}
+
+
+/* change opacity to .5 when hover the project photos*/
+.projectPhotos:hover {
+  opacity: .5;
 }
 
 
