@@ -202,6 +202,12 @@ h2 #revealWordColor{
   opacity: .5;
 }
 
+/*NOT IN USE*/
+/*[target=_blank]::after {
+  content: "(open in new window)";
+
+}*/
+
 
 /*button group styling*/
 .button-bar ul li{
