@@ -1,9 +1,8 @@
 $(document).foundation();
 
-
 $(document).ready(function(){
-
-// Not in use.
+  console.log("Document loaded!");
+// NOT IN USE.
 /* http://foundation.zurb.com/forum/posts/5265-how-to-add-a-back-to-the-top-image */
 /* Top of Page */
   // hide #back-top first
@@ -27,10 +26,9 @@ $(document).ready(function(){
       return false;
     });
   });*/
-
 });
 
-
+// Foundation accordion.
 $(document).foundation({
 accordion: {
   callback : function (accordion) {
@@ -39,13 +37,11 @@ accordion: {
   }
 });
 
-
 $('#myAccordionGroup').on('toggled', function (event, accordion) {
 	console.log(accordion);
 });
 
-
-// Not in use.
+// NOT IN USE.
 // When users click on the projects, they are notified that they will be directed to a new tab.
 // https://www.w3schools.com/js/js_popup.asp 
 /*function notifyUserLeaveMySite() {
