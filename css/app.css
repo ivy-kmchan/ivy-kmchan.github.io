@@ -56,13 +56,15 @@ h1, h2, h3, h4, h5, h6, .tabs-title{
 From https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/ */
 #facebookIcon,
 #linkedinIcon,
-#twitterIcon { 
+#twitterIcon,
+.button:hover { 
     transition: all .2s ease-in-out; 
 }
 
 #facebookIcon:hover,
 #linkedinIcon:hover,
-#twitterIcon:hover { 
+#twitterIcon:hover,
+.button:hover { 
     transform: scale(1.1); 
 }
 
