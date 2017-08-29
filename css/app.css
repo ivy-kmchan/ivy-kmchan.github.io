@@ -47,23 +47,23 @@ h1, h2, h3, h4, h5, h6, .tabs-title{
     text-decoration: underline;
  }
 
-#socialMediaIcons a{
+.socialMediaIcons a{
     /*border: 1px dotted white;*/ 
     margin-right: 1em;
 }
 
 /*For icon zoom in effect.
 From https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/ */
-#facebookIcon,
-#linkedinIcon,
-#twitterIcon,
+.facebookIcon,
+.linkedinIcon,
+.twitterIcon,
 .button:hover { 
     transition: all .2s ease-in-out; 
 }
 
-#facebookIcon:hover,
-#linkedinIcon:hover,
-#twitterIcon:hover,
+.facebookIcon:hover,
+.linkedinIcon:hover,
+.twitterIcon:hover,
 .button:hover { 
     transform: scale(1.1); 
 }
@@ -232,12 +232,12 @@ hr.projectDivider{
 }
 
 
-.asideCourses{
+.asideProjects{
   margin-bottom: 1em;
   background-color:#F2EDBC;
 }
 
-.asideCoursesHeader{
+.asideProjectsHeader{
   background-color:#F0D770;
 }
 
@@ -248,13 +248,13 @@ aside h5{
   padding-left: 0.8em;*/
 }
 
-.asideCoursesDetails{
+.asideProjectsDetails{
   padding-left: 0.5em;
   font-size: 0.9em;
   padding: 0.2em 0.2em;
 }
 
-.asideCoursesDetails ul li{
+.asideProjectsDetails ul li{
   line-height: 1.2em;
   padding-top: 1.5em;
 }
@@ -441,7 +441,7 @@ footer {
       
     }
 
-    .asideCourses{
+    .asideProjects{
       margin-top: 1em;
     }
 
