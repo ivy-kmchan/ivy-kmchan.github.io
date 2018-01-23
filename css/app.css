@@ -15,11 +15,11 @@ body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2
     font-size-adjust: 0.5;
 }
 
-
+/* every pages. */
 body{
     font-family: 'Source Sans Pro', Arial,sans-serif; /*Arial, Geneva, sans-serif;*/
-    background-color: #a51c30; 
     font-size: 100%;
+    background-color: #a51c30; 
     color: #FBFBF9;
 }
 
@@ -32,7 +32,9 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6, .tabs-title{
-    font-family: 'Amita', cursive;
+    /* font-family: 'Amita', cursive; */
+    /*font-family: 'Source Serif Pro', Arial,sans-serif;*/
+    font-family: 'Source Serif Pro', serif;
 }
 
 #headerRow{
@@ -113,15 +115,12 @@ p.pageDescription{
     border: 1px solid #a51c30;
 }
 
-#projectsAssignmentsTitle, #resumeTitle{
+/* special setup for these three titles because we need to align with the aside. */
+#projectsAssignmentsTitle, #resumeTitle, #skillsTitle{
     font-size: 2.5em;
     padding-bottom: 0.8em;
     padding-left: 0.4em;
 }
-
-
-
-
 
 
 /*#projectsAssignmentsContent{
@@ -130,12 +129,10 @@ p.pageDescription{
 }*/
 
 
-
-
 /* Reference-only. http://stackoverflow.com/questions/21582774/add-text-overlay-to-panel-and-image-with-zurb-foundation*/
 /* Reference. Make use of this one. http://codepen.io/shoaibik/pen/pyYjpa*/
 /* Reference. Make use of this one. http://web.enavu.com/tutorials/making-image-overlay-caption-using-css/*/
-/* captions overlay photos */
+/* about.html. captions overlay photos. */
 div.thumb-wrapper{  
     float: left; /* important */  
     position: relative; /* important(so we can absolutely position the description div */  
@@ -166,7 +163,7 @@ p.description_content{
 
 
 
-/*tabs styling*/
+/* projects.html & resume.html. tabs styling*/
 .tabs-title a:hover{
     background-color:#ddd;
 }
@@ -210,7 +207,7 @@ h2 #revealWordColor{
 }*/
 
 
-/*button group styling*/
+/* button group styling. e.g. GitHub on project.html and Print on resume.html. */
 .button-bar ul li{
     display: inline;
 }
@@ -221,7 +218,7 @@ h2 #revealWordColor{
 
 
 /* http://codepen.io/ibrahimjabbari/pen/ozinB */
-/*divider styling*/
+/* divider styling. For project.html & resume.html. */
 hr.projectDivider{
     border: 0; 
     height: 1px; 
@@ -261,6 +258,25 @@ aside h5{
 
 .asideProjectsDetails ul li a:hover{
   text-decoration: underline;
+}
+
+
+/* Skills.html. use angular js.*/
+/* search input box. */
+input {
+  padding: 0.5em;
+  border: 1px solid #cacaca;
+  width: 90%;
+}
+
+/* sort by box. */
+select{
+    width: 90%;
+}
+
+.skillsName{
+    font-weight: bold;
+    color:  #5F574F;
 }
 
 
@@ -309,13 +325,15 @@ footer {
     }
 }
 
+
+
+
 /* Medium to Large screens */
 @media only screen and (min-width: 40.063em){
     /*http://stackoverflow.com/questions/28708909/foundation-5-modifying-top-bar-links-to-have-a-border-bottom-with-sass*/
     /* Create hover effect on all li in nav and make active li with a colored border-bottom */
     .topMenu .link-border-bottom a:hover{
       border-bottom: 3px solid #E09A25;/*#5F574F;*/
- 
     }
 
     .topMenu .link-border-bottom a:active{
@@ -332,6 +350,7 @@ footer {
     }   
 
 }
+
 
 
 
@@ -357,7 +376,7 @@ footer {
     }
 
     #myNameInHeader{
-      font-size:1.5em;
+      font-size:1.8em;
     }
 
     #homePhoto{
@@ -402,17 +421,20 @@ footer {
       padding-right: 3em;
     }*/
 
-    #projectsAssignmentsTitle{
-      font-size: 1.6em;
-    }
-
     .projectsAssignmentsSubtitle{
       font-size: 1.5em;
     }
 
     #resumeTitle{
       padding-bottom: 0.3em;
+      padding-left: 0.2em;
     }
+
+    #skillsTitle{
+      padding-left: 0.5em;
+    }
+
+    
 
     .projectPhotos{      
       display: block;
@@ -435,10 +457,9 @@ footer {
     .callout.large{    
       padding-left: 0.8rem;
       padding-right: 0.8rem;
+    }
 
-      }
-
-    p {
+    p{
       font-size: 1.1em;
       line-height: 1.8em;
       
@@ -467,9 +488,11 @@ footer {
       
     }*/
 
-    #resumeTitle{
-    padding-left: 0.2em;
-    }
+    .skillsName{
+        font-weight: bold;
+        color:  #5F574F;
+        font-size: 1.2em;
+    } 
   
 }
 

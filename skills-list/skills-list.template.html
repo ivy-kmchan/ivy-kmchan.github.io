@@ -1,0 +1,92 @@
+<div class="row"> <!-- data-equalizer-->
+  <div class="large-12 columns">
+    <div class="callout clearfix large">
+    <h2 class="pageTitle" id="skillsTitle">Technical Skills</h2>
+
+    
+    <div class="medium-9 medium-push-3 columns">
+      
+
+  		<div class="medium-4 columns" > <!--data-equalizer-watch--> 
+        <!-- the below is the Angular JS Search and SortBy -->
+    			<p>
+            Search:
+            <input ng-model="$ctrl.query" />
+    	  	</p>
+    		 	<p>
+    		    Sort by:
+    		    <select ng-model="$ctrl.orderProp">
+              <option value="age">Order in Resume</option>
+    		      <option value="name">Alphabetical: (A - Z)</option>
+    		      <option value="-name">Alphabetical: (Z - A)</option>
+    		    </select>
+    		  </p>
+    		</div>
+
+    		<div class="medium-8 columns">
+    			<ul class="skills">
+    				<li ng-repeat="skills in $ctrl.skills | filter:$ctrl.query | orderBy:$ctrl.orderProp">
+    				  <span class="skillsName">{{skills.name}}</span>
+    				  <p>{{skills.snippet}}</p>
+    				</li>
+    			</ul>
+
+          <p>Note: The Search and SortBy are implemented with Angular JS.</p>
+    		</div>
+
+      
+	</div>
+
+  <aside class="medium-3 medium-pull-9 columns" > <!--data-equalizer-watch-->
+      <div class="asideProjects">
+        <div class="asideProjectsHeader">
+          <h5>Responsive Web Design:</h5>
+        </div>
+        <div class="asideProjectsDetails">
+          <ul>
+            <li><a href="http://ivykamanchan.org/DGMD_E27_Assignment1/index.html" TARGET="_blank">Responsive Design &amp; Typography</a></li>
+            <li><a href="http://ivykamanchan.org/DGMD_E27_Assignment2/index.html" TARGET="_blank">Sass &amp; Compass</a></li>
+            <li><a href="http://ivykamanchan.org/DGMD_E27_Assignment3/kamantravel/home.html" TARGET="_blank">Foundation</a></li>
+            <li><a href="http://ivykamanchan.org/DGMD_E27_Assignment4/Part1_Flexbox/Part1_Flexbox/index.html" TARGET="_blank">Flexbox</a></li>
+            <li><a href="http://ivykamanchan.org/DGMD_E27_Assignment4/Part2_CSS4Grids/index.html" TARGET="_blank">CSS4 Grids and CSS Anmiation &amp; SVG</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="asideProjects">
+        <div class="asideProjectsHeader">
+          <h5>Fundamental Web Design:</h5>
+        </div>
+        <div class="asideProjectsDetails">
+          <ul>
+            <li><a href="http://ivykamanchan.org/DGMD_E20_Assignment2/index.html" TARGET="_blank">Positioning, Forms, CSS3 Styling</a></li>
+            <li><a href="http://ivykamanchan.org/DGMD_E20_Assignment3/index.html" TARGET="_blank">jQuery</a></li>
+            <li><a href="http://ivykamanchan.org/DGMD_E20_Assignment4/index.html" TARGET="_blank">jQuery Mobile &amp; jQuery UI</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="asideProjects">
+        <div class="asideProjectsHeader">
+          <h5>CMS:</h5>
+        </div>
+        <div class="asideProjectsDetails">
+          <ul>
+            <li><a href="http://www.ivykamanchan.org/joomla/index.php" TARGET="_blank">Joomla</a></li>
+            <li><a href="http://ivykamanchan.org/wordpress/" TARGET="_blank">WordPress</a></li>
+            <li> <a href="http://ivykamanchan.org/drupal8/" TARGET="_blank">Drupal8</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </aside> 
+    </div>
+  </div> <!-- end large-12 columns -->
+</div> <!-- end row -->
+
+
+
+
+
+
+
