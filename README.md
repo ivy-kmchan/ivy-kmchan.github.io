@@ -1,3 +1,6 @@
-#Portfolio Site
+#Portfolio Site for Ivy Ka Man Chan.
 
-This is my portfolio site.
+URL: https://ivy-kmchan.github.io/home.html
+
+This is my portfolio site hosting on github. This site contains six major pages, including Home, About, Skills, Projects, Resume, and Contact. It was implemented with hand-coded HTML/CSS/JavaScript, Foundation. The Skills has the Search and SortBy functions which were implemented with Angular JS. The Projects includes Dashboard tab, Responsive Web Design tab, and Fundamental Web Design tab to show some of the projects that I worked on. It is responsive and is mobile-friendly.
+
