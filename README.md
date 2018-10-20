@@ -1,6 +1,6 @@
 # Portfolio Site for Ivy Ka Man Chan. #
 
-## Please click here: [Ivy Ka Man Chan's website](https://ivy-kmchan.github.io/home.html) ##
+## URL: [Ivy Ka Man Chan's website](https://ivy-kmchan.github.io/home.html) ##
 
 This site contains 6 major pages:
 * Home
