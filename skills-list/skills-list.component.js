@@ -17,7 +17,7 @@ angular.
           age: 2
         }, {
           name: 'ETL Tools:',
-          snippet: 'Informatica PowerMart/PowerCenter, Business Objects',
+          snippet: 'Informatica PowerMart/PowerCenter, SAP Business Objects',
           age: 3
         }, {
           name: 'Python:',
@@ -56,8 +56,8 @@ angular.
           snippet: 'HTML, CSS, JavaScript, SQL, PL/SQL, XML, JSON, XQuery, PHP, Python, pandas, Java, VBA',
           age: 12
         }, {
-          name: 'Reporting Tools:',
-          snippet: 'Business Objects, Tableau',
+          name: 'Reporting/Dashboard Tools:',
+          snippet: 'SAP Business Objects, MS Excel, Power BI',
           age: 13
         }, {
           name: 'Version Control Systems:',
