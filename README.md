@@ -1,4 +1,4 @@
-# Portfolio Site for Ivy Ka Man Chan. #
+# Portfolio Site for Ivy Ka Man Chan #
 
 ## URL: [Ivy Ka Man Chan's website](https://ivy-kmchan.github.io/home.html) ##
 
