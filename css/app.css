@@ -441,7 +441,7 @@ footer {
 
     
 
-    .projectPhotos{      
+    .projectPhotos, .videoMP4{  
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -449,10 +449,11 @@ footer {
       height: auto;
       margin-top: 1em;
       margin-bottom: 1em; 
-      /*border: 1px solid #a51c30;*/
-      border: none;
+      border: 1px solid #a51c30;
       padding-left:3em;
       padding-right: 3em;
+      /*margin: 0.5em 2em 1em 0em;
+      border: 1px solid #a51c30;*/
     }
 
     .projectFilesButtonGroup{
