@@ -110,7 +110,7 @@ p.pageDescription{
     margin-bottom: 2em; 
 }
 
-.projectPhotos{
+.projectPhotos, .videoMP4{
     margin: 0.5em 2em 1em 0em;
     border: 1px solid #a51c30;
 }
@@ -120,6 +120,11 @@ p.pageDescription{
     font-size: 2.5em;
     padding-bottom: 0.8em;
     padding-left: 0.4em;
+}
+
+.reference{
+    font-size: 0.8em;
+    font-style: italic;
 }
 
 
@@ -196,7 +201,7 @@ h2 #revealWordColor{
 
 
 /* change opacity to .5 when hover the project photos*/
-.projectPhotos:hover {
+.projectPhotos:hover, .videoMP4:hover {
   opacity: .5;
 }
 
