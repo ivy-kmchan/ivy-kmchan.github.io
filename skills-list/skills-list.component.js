@@ -57,7 +57,7 @@ angular.
           age: 12
         }, {
           name: 'Reporting/Dashboard Tools:',
-          snippet: 'SAP Business Objects, MS Excel, Power BI',
+          snippet: 'SAP Business Objects, OBIEE, Oracle BI Publisher, Excel Power Query, Excel Power Pivot, Power BI',
           age: 13
         }, {
           name: 'Version Control Systems:',
