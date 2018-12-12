@@ -56,8 +56,8 @@ angular.
           snippet: 'HTML, CSS, JavaScript, SQL, PL/SQL, XML, JSON, XQuery, PHP, Python, pandas, Java, VBA',
           age: 12
         }, {
-          name: 'Reporting/Dashboard Tools:',
-          snippet: 'SAP Business Objects, OBIEE, Oracle BI Publisher, Excel Power Query, Excel Power Pivot, Power BI',
+          name: 'Report/Dashboard:',
+          snippet: 'SAP Business Objects, OBIEE, Oracle BI Publisher, Excel Power Query, Excel Power Pivot, Power BI, Tableau',
           age: 13
         }, {
           name: 'Version Control Systems:',
