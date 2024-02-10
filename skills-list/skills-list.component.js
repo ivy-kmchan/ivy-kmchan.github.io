@@ -53,11 +53,11 @@ angular.
           age: 11
         }, {
           name: 'Languages:',
-          snippet: 'HTML, CSS, JavaScript, SQL, PL/SQL, XML, JSON, XQuery, PHP, Python, pandas, Java, VBA',
+          snippet: 'Python, R, SQL, HTML, CSS, JavaScript, PL/SQL, XML, JSON, XQuery, PHP, Java, VBA',
           age: 12
         }, {
           name: 'Report/Dashboard:',
-          snippet: 'SAP Business Objects, OBIEE, Oracle BI Publisher, Excel Power Query, Excel Power Pivot, Power BI, Tableau',
+          snippet: 'Power BI, Tableau, OBIEE, Oracle BI Publisher, Excel Power Query, Excel Power Pivot, SAP Business Objects',
           age: 13
         }, {
           name: 'Version Control Systems:',
