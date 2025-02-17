@@ -1,3 +1,3 @@
 #Portfolio Site
 
-This is my portfolio site. Thanks.
+This is Ivy's portfolio site. Thank you for visiting.
