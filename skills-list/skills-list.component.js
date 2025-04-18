@@ -8,65 +8,53 @@ angular.
     controller: function skillsListController() {
       this.skills = [
         {
-          name: 'Databases/SQL:',
-          snippet: 'Oracle, SQLite, MS Access, MySQL',
+          name: 'Data Science & AI:',
+          snippet: 'LangChain, LLM, Prompt Engineering, Vertex AI, AutoML, Scikit-learn, Keras, TensorFlow, PyTorch',
           age: 1
         }, {
-          name: 'NoSQL DB:',
-          snippet: 'MongoDB, BerkeleyDB',
+          name: 'Data Analysis & Visualization:',
+          snippet: 'Pandas, NumPy, SciPy, Matplotlib, Seaborn, Power BI, Tableau, Excel Power Query, Excel Power Pivot',
           age: 2
         }, {
-          name: 'ETL Tools:',
-          snippet: 'Informatica PowerMart/PowerCenter, SAP Business Objects',
+          name: 'Databases:',
+          snippet: 'Postgres, Oracle, MySQL, SQLite, MongoDB, BerkeleyDB, GraphQL',
           age: 3
         }, {
-          name: 'Python:',
-          snippet: 'Pandas, Numpy',
+          name: 'Data Engineering:',
+          snippet: 'ETL, Informatica PowerMart/PowerCenter, Data Modeling, ER Modeling, Hadoop MapReduce',
           age: 4
         }, {
-          name: 'Data Models:',
-          snippet: 'ER Modeling, Semi-Structured Data Modeling',
+          name: 'Programming Languages:',
+          snippet: 'Python, R, JavaScript, Java, PHP, VBA',
           age: 5
         }, {
-          name: 'Big Data:',
-          snippet: 'Hadoop MapReduce',
+          name: 'Query Languages:',
+          snippet: 'SQL, PL/SQL, GraphQL, XQuery',
           age: 6
         }, {
-          name: 'WebDev Technologies & Frameworks:',
-          snippet: 'HTML, CSS, JavaScript, jQuery, jCanvas, jQuery Mobile, jQueryUI, Foundation6, HTTP, AngularJS',
+          name: 'Frontend Development:',
+          snippet: 'HTML, CSS, JavaScript, AngularJS, jQuery, Foundation6',
           age: 7
         }, {
-          name: 'Content Management Systems (CMS):',
-          snippet: 'Joomla, WordPress, Drupal8',
+          name: 'CSS & Design:',
+          snippet: 'Sass, Flexbox, CSS Grid, CSS Animation, SVG, Responsive Design, Media Queries',
           age: 8
         }, {
-          name: 'Responsive Web& Mobile Design (RWD):',
-          snippet: 'Responsive Design & Typography, Media-queries, Grid-base Layouts, Image Resize',
+          name: 'Content Management:',
+          snippet: 'WordPress, Drupal8, Joomla',
           age: 9
         }, {
-          name: 'CSS Preprocessors/Tools:',
-          snippet: 'Sass, Koala, Compass',
+          name: 'Cloud & DevOps:',
+          snippet: 'AWS, Git, Agile, Scrum, Kanban',
           age: 10
         }, {
-          name: 'CSS Layouts:',
-          snippet: 'Flexbox, CSS4 Grids, CSS Animation & SVG',
+          name: 'Data Formats:',
+          snippet: 'JSON, XML, Semi-Structured Data, CSV',
           age: 11
         }, {
-          name: 'Languages:',
-          snippet: 'Python, R, SQL, HTML, CSS, JavaScript, PL/SQL, XML, JSON, XQuery, PHP, Java, VBA',
+          name: 'Business Intelligence:',
+          snippet: 'OBIEE, Oracle BI Publisher, SAP Business Objects',
           age: 12
-        }, {
-          name: 'Report/Dashboard:',
-          snippet: 'Power BI, Tableau, OBIEE, Oracle BI Publisher, Excel Power Query, Excel Power Pivot, SAP Business Objects',
-          age: 13
-        }, {
-          name: 'Version Control Systems:',
-          snippet: 'Git',
-          age: 14
-        }, {
-          name: 'DevOps:',
-          snippet: 'AWS, Agile, Scrum and Kanban frameworks',
-          age: 15
         }
       ];
 
