@@ -205,6 +205,10 @@ h2 #revealWordColor{
   opacity: .5;
 }
 
+.no-hover:hover {
+  opacity: 1 !important;
+}
+
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
