@@ -19,7 +19,8 @@ body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2
 body{
     font-family: 'Source Sans Pro', Arial,sans-serif; /*Arial, Geneva, sans-serif;*/
     font-size: 100%;
-    background-color: #a51c30; 
+    background-color: #a51c30; /* Harvard Crimson */
+    /*background-color: #003262; /* Berkeley Blue */
     color: #FBFBF9;
 }
 
@@ -112,7 +113,8 @@ p.pageDescription{
 
 .projectPhotos{
     margin: 0.5em 2em 1em 0em;
-    border: 1px solid #a51c30;
+    border: 1px solid #a51c30; /* Harvard Crimson */
+    /*border: 1px solid #003262; /* Berkeley Blue */
 }
 
 /* special setup for these three titles because we need to align with the aside. */
@@ -174,7 +176,8 @@ p.description_content{
 }
 
 .tabs-title a, .accordion-title{
-    color: #a51c30;
+    color: #a51c30; /* Harvard Crimson */
+    /*color: #003262; /* Berkeley Blue */
     font-size: 1em;
     font-weight: bold;
     /*background-color: #F0D770;*/
@@ -187,7 +190,8 @@ p.description_content{
 /*accordion styling*/
 .accordion-title,.accordion-title:hover, .accordion-title:focus{
     background-color: #F0D770;
-    color: #a51c30;
+    color: #a51c30; /* Harvard Crimson */
+    /*color: #003262; /* Berkeley Blue */
 }
 
 .accordion-title:hover, .accordion-title:focus{
@@ -196,7 +200,8 @@ p.description_content{
 
 
 h2 #revealWordColor{
-  color: #a51c30;
+  /*color: #a51c30; /* Harvard Crimson */
+  color: #003262; /* Berkeley Blue */
 }
 
 
@@ -364,7 +369,8 @@ footer {
     }
 
     .active-nav .link-border-bottom a { 
-      border-bottom: 3px solid #a51c30; 
+      border-bottom: 3px solid #a51c30; /* Harvard Crimson */
+      /*border-bottom: 3px solid #003262; /* Berkeley Blue */
     }
 
     .active-nav .link-border-bottom a,
@@ -438,7 +444,7 @@ footer {
       height: auto;
       margin-top: 1em;
       margin-bottom: 1em; 
-      border: 1px solid #a51c30;
+      border: 1px solid #003262;
       border: none;
       padding-left:3em;
       padding-right: 3em;
@@ -467,11 +473,11 @@ footer {
       height: auto;
       margin-top: 1em;
       margin-bottom: 1em; 
-      /*border: 1px solid #a51c30;*/
+      /*border: 1px solid #003262;*/
       padding-left:3em;
       padding-right: 3em;
       /*margin: 0.5em 2em 1em 0em;
-      border: 1px solid #a51c30;*/
+      border: 1px solid #003262;*/
     }
 
     .projectFilesButtonGroup{
